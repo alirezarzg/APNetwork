@@ -102,7 +102,7 @@ public class APRequestBuilder {
     }
     
     @discardableResult
-    public func set(headers headers: APParameters) -> Self {
+    public func set(headers: APParameters) -> Self {
         self.request.headers = headers
         return self
     }

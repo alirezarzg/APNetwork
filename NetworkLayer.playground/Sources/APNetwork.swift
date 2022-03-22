@@ -1,11 +1,11 @@
 import Foundation
 
-public class AP {
+public class APNetwork {
     private var urlSession : URLSession
     private var defaultBaseURL: String?
-    private var defaultRequestProtocol:APProtocol = APProtocol.https
-    private var defaultEncoder:APEncoder = APEncoder.JSON
-    private var defaultDecoder:APDecoder = APDecoder.JSON
+    private var defaultRequestProtocol: APProtocol = APProtocol.https
+    private var defaultEncoder: APEncoder = APEncoder.JSON
+    private var defaultDecoder: APDecoder = APDecoder.JSON
     
     public init(_ urlSession : URLSession) {
         self.urlSession = urlSession
